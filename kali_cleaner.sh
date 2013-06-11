@@ -5,7 +5,7 @@ YELLOW="\033[1;33m"
 RED="\033[0;31m"
 ENDCOLOR="\033[0m"
 echo -e $RED"================Kali-cleaner========================================"$ENDCOLOR
-echo -e $RED"=      Little cleaner script for Kali by MasterButcher [:]         ="$ENDCOLOR
+echo -e $RED"=      Little cleaner for Kali by MasterButcher [:]                ="$ENDCOLOR
 echo -e $RED"===================================================================="$ENDCOLOR
 echo -e
 echo -e
