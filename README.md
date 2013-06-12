@@ -1,5 +1,5 @@
 kali-cleaner
-============
+==========================================
 
  Little cleaner script for Kali linux.
  Clean apt cache.
@@ -13,6 +13,10 @@ kali-cleaner
 Ex:
  root@kali:~/Desktop# ./kali_cleaner.sh
  
+========================================== 
+ *Fixed remove kernel current use....
  
- By MasterButcher
+  By MasterButcher[:]
+ 
+ 
 
