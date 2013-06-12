@@ -20,7 +20,7 @@ RED="\033[0;31m"
 ENDCOLOR="\033[0m"
  
 if [ $USER != root ]; then
-echo -e $RED"[Kali-cleaner-cleaner]:Error: must be root"
+echo -e $RED"[Kali-cleaner]:Error: must be root"
 echo -e $YELLOW"[Kali-cleaner]:Exiting..."$ENDCOLOR
 exit 0
 fi
