@@ -26,7 +26,7 @@ exit 0
 fi
  
 echo -e $YELLOW"[Kali-cleaner]:Cleaning apt cache..."$ENDCOLOR
-#aptitude clean
+sudo aptitude clean
  
 echo -e $YELLOW"[Kali-cleaner]:Removing old config files..."$ENDCOLOR
 sudo aptitude purge $OLDCONF
