@@ -26,13 +26,13 @@ exit 0
 fi
  
 echo -e $YELLOW"[Kali-cleaner]:Cleaning apt cache..."$ENDCOLOR
-sudo aptitude clean
+sudo apt-get clean
  
 echo -e $YELLOW"[Kali-cleaner]:Removing old config files..."$ENDCOLOR
-sudo aptitude purge $OLDCONF
+sudo apt-get purge $OLDCONF
  
 echo -e $YELLOW"[Kali-cleaner]:Removing old kernels..."$ENDCOLOR
-sudo aptitude purge $OLDKERNELS
+sudo apt-get purge $OLDKERNELS
  
 echo -e $YELLOW"[Kali-cleaner]:Emptying every trashes..."$ENDCOLOR
 rm -rf /home/*/.local/share/Trash/*/** &> /dev/null
